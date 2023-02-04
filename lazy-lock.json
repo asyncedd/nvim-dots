@@ -1,0 +1,7 @@
+{
+  "catppuccin": { "branch": "main", "commit": "8769e767f12f5bf0b7d1250ee067088e7054809a" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "8299fe7703dfff4b1752aeed271c3b95281a952d" },
+  "lazy.nvim": { "branch": "main", "commit": "3d2dcb2d5ef99106c5ff412da88c6f59a9f8a693" },
+  "mini.indentscope": { "branch": "main", "commit": "3a517f11aa9d1434c4cdba1a807df4e5ca42d3ea" },
+  "nvim-treesitter": { "branch": "master", "commit": "0e6d4b4172f30c4aa44a9adc9ea5719723a1fac3" }
+}
