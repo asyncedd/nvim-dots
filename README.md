@@ -3,7 +3,7 @@
 
 ## ✨ Features
 - 💤 Lazy loading plugins by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
-- 🚀 40-80ms load time on my old Windows machine. (It takes 30-50ms to load so it's actually way faster.)
+- 🚀 Ultra fast loading time on my Ancient Windows machine running WSL2.
 - 💪 Modular design for easy extendabiity.
 
 ## ⚡ Requirements
@@ -23,13 +23,11 @@ Then start Neovim by using this command
 nvim
 ```
 Then it'll automaticlly clone lazy.nvim (it might take a while) and then install the plugins.
-The default colorscheme is the [catppuccin](https://github.com/catppuccin/nvim).
 
 ## :octocat: This is WIP as always.
 - Feel free to create a pull request!
 
 ## 💥 TODO:
-- Fix treesitter so it works on Windows.
 - Add more plugins. Way more plugins.
 - Completion.
 - Try to optimize this code even further.
