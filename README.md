@@ -1,12 +1,10 @@
 ## Dotfiles
 ☕ My neovim dots
 
-![Lines of code](https://img.shields.io/tokei/lines/github/asyncedd/nvim-dots?color=%23f38ba8&label=lines%20of%20code&style=for-the-badge)
-
 ## ✨ Features
 - 💤 Lazy loading plugins by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Ultra fast loading time on my Ancient Windows machine running WSL2.
-- 💪 Modular design for easy extendabiity.
+- 💪 Modular design for easy extendabity.
 
 ## ⚡ Requirements
 - [Neovim](https://neovim.io) => 0.8.2
