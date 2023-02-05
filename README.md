@@ -4,7 +4,7 @@
 ## ✨ Features
 - 💤 Lazy loading plugins by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Ultra fast loading time on my Ancient Windows machine running WSL2.
-- 💪 Modular design for easy extendabiity.
+- 💪 Modular design for easy extendabity.
 
 ## ⚡ Requirements
 - [Neovim](https://neovim.io) => 0.8.2
