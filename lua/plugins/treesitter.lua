@@ -6,7 +6,7 @@ local M = {
 	end,
 	event = "BufReadPre",
 	dependencies = {
-	-- 	{ "p00f/nvim-ts-rainbow", event = "BufReadPre" },
+	 	{ "p00f/nvim-ts-rainbow", event = "BufReadPre" },
 	},
 	-- lazy = false
 }

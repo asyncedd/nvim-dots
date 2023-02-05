@@ -8,7 +8,9 @@
 local present, catppuccin = pcall(require, "catppuccin")
 if not present then return end
 
-require("catppuccin").setup({
+local transparent_background = false
+
+catppuccin.setup({
 	flavour = "mocha", -- Can be one of: latte, frappe, macchiato, mocha
 	background = { light = "latte", dark = "mocha" },
 	dim_inactive = {
@@ -18,6 +20,7 @@ require("catppuccin").setup({
 		shade = "dark",
 		percentage = 0.25,
 	},
+	transparent_background = transparent_background,
 	show_end_of_buffer = false, -- show the '~' characters after the end of buffers
 	term_colors = true,
 	compile_path = vim.fn.stdpath("cache") .. "/catppuccin",
@@ -127,7 +130,6 @@ require("catppuccin").setup({
 	highlight_overrides = {
 		mocha = function(cp)
 			return {
-				-- For base configs.
 				NormalFloat = { fg = cp.text, bg = transparent_background and cp.none or cp.base },
 				CursorLineNr = { fg = cp.green },
 				Search = { bg = cp.surface1, fg = cp.pink, style = { "bold" } },
@@ -158,7 +160,7 @@ require("catppuccin").setup({
 
 				-- For treesitter.
 				["@field"] = { fg = cp.rosewater },
-				["@property"] = { fg = cp.yellow },
+				-- ["@property"] = { fg = cp.yellow },
 
 				["@include"] = { fg = cp.teal },
 				-- ["@operator"] = { fg = cp.sky },

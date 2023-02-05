@@ -6,15 +6,15 @@ treesitter.setup({
 	auto_install = true,
 	highlight = {
 		enable = true,
+		use_languagetree = true,
 	},
-	incremental_selection = {
+	rainbow = {
 		enable = true,
 	},
-	indent = {
-		enable = true,
-	},
-	-- rainbow = {
+	-- indent = {
 	-- 	enable = true,
-	-- 	extended_mode = true
 	-- },
+	-- autotag = {
+	-- 	enable = true,
+	-- }
 })
